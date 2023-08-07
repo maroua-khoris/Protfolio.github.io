@@ -4,7 +4,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    gap: 20px;
+    gap: 66px;
     margin-top: 5%;
     margin-left: 0.5%;
 }
@@ -45,7 +45,7 @@ body {
 }
 .container-two {
     display: grid;
-    grid-template-columns: 22rem 20rem;
+    grid-template-columns: 23rem 16rem;
     gap: 20px;
     grid-template-areas: 
     'five five'
@@ -144,12 +144,16 @@ h1 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0px;
+
 }
 .icon {
+    height: 100%;
+    display: flex;
     color: white;
-    font-size: 25px;
-    margin-left: 20px;
-    margin-top: 15px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    
 }
 span {
 background-color: rgba(170, 170, 170, 0.619);
